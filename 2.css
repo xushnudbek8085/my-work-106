@@ -1,0 +1,34 @@
+img{
+    width: 400px;
+    height: 400px;
+}
+.a{
+    width: 400px;
+    height: 450px;
+}
+.box{
+    position: relative;
+    top: 200px;
+    left: 200px;
+}
+.box1{
+    width: 500px;
+    height: 300px;
+    background-color: white;
+    position: relative;
+    left: 400px;
+    top: -300px;
+    z-index: 1;
+}
+body{
+    background: rgb(32,110,142);
+background: linear-gradient(90deg, rgba(32,110,142,1) 0%, rgba(82,133,86,1) 7%, rgba(143,102,62,1) 16%, rgba(149,164,11,1) 35%, rgba(182,152,61,1) 53%, rgba(141,151,111,1) 59%, rgba(138,147,146,1) 70%, rgba(143,155,82,1) 77%, rgba(0,212,255,1) 100%);
+}
+button{
+    background-color: yellow;
+}
+.box2{
+    position: relative;
+    top: -620px;
+    left: 850px;
+}
